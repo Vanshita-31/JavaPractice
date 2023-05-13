@@ -18,6 +18,12 @@ public class widening {
         byte d = (byte) g;
         System.out.println(d);
 
+        // overflow
+
+        byte k = 50;
+        byte h = 90;
+        byte l = (byte) (k + h);
+        System.out.println(l);
     }
 
 }
