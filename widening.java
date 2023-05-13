@@ -13,5 +13,11 @@ public class widening {
         int c = (int) f;
         System.out.println(c);
 
+        // int to byte
+        int g = 2000;
+        byte d = (byte) g;
+        System.out.println(d);
+
     }
+
 }
